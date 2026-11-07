@@ -1,0 +1,17 @@
+Machine Learning Intern (Tokyo) - SYNTHETIC TEST POSTING
+About the role
+We build forecasting tools for a fictional company.
+
+Responsibilities
+- Build Python data pipelines
+
+Minimum Qualifications:
+- Currently enrolled and graduating in 2027 or 2028
+- Proficiency in Python and SQL
+- Japanese language ability at JLPT N3 or higher
+- Experience with machine learning frameworks such as PyTorch
+- Visa sponsorship is not available for this role
+
+Preferred Qualifications
+- Docker or Kubernetes experience
+- Experience with FastAPI

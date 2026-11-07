@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RoleFit API (uvicorn)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload", "--port", "8000"],
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "RoleFit UI (Streamlit)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "ui/app.py", "--server.port", "8501"],
+      "env": { "API_URL": "http://127.0.0.1:8000" },
+      "justMyCode": true
+    }
+  ],
+  "compounds": [
+    { "name": "RoleFit API + UI", "configurations": ["RoleFit API (uvicorn)", "RoleFit UI (Streamlit)"], "stopAll": true }
+  ]
+}

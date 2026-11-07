@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+.env
+.pytest_cache/
+# NEVER commit real resumes, transcripts or private application documents
+real_data/
+uploads/
