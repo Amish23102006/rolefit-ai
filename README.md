@@ -4,6 +4,8 @@ Evidence-grounded, privacy-preserving career-preparation platform: FastAPI backe
 **Not an employer ATS score and not a guarantee of selection.**
 Built from *RoleFit AI Secure End-to-End Blueprint & Master Prompt*.
 
+![RoleFit Analysis page on synthetic data: a JLPT N3 requirement the candidate does not meet caps the readiness score at 35, with a likely range and confidence](docs/screenshot.png)
+
 ## Quick start (macOS / Linux)
 ```bash
 ./scripts/setup.sh   # creates .venv, installs everything, creates .env with a random JWT secret, runs the tests
